@@ -5,7 +5,7 @@ from mpl_toolkits.mplot3d import Axes3D
 trainingdata=[]
 testdata=[]
 def loaddata(trainingdata=[],testdata=[]):
-    with open(r'C:\Users\vipul chawla\Desktop\irisproject.txt') as csvfile:
+    with open("C:\\Users\\vipul chawla\\Desktop\\irisproject.txt") as csvfile:
         lines=csv.reader(csvfile,delimiter='\t')
         dataset=list(lines)
         for i in range(len(dataset)):
